@@ -1,0 +1,126 @@
+:root {
+  --search-max-width: 600px;
+  --search-border-radius: 8px;
+  --search-hover-gradient: linear-gradient(
+    to right,
+    #e394d5,
+    #d594ce,
+    #bf93c6,
+    #ae94be
+  );
+  --search-gradient: linear-gradient(
+    to right,
+    #b74aaf,
+    #ae4aab,
+    #a34aa6,
+    #994ba1,
+    #8f4b9f
+  );
+  --search-text-color: #f4c7ec;
+}
+
+.form-search {
+  display: flex;
+  position: relative;
+  max-width: var(--search-max-width);
+}
+.form-search input[type="search"] {
+  height: 46px;
+  flex-grow: 1;
+  font-size: small;
+  padding-left: 50px;
+  flex-grow: 1;
+  padding-right: 20px;
+  border-radius: var(--search-border-radius);
+  border-width: 0;
+  background: var(--search-gradient);
+  cursor: pointer;
+}
+.form-search input[type="search"]::placeholder {
+  color: var(--search-text-color);
+}
+
+.form-search input[type="search"]:hover {
+  background: var(--search-hover-gradient);
+}
+.form-search input[type="search"]:focus::placeholder {
+  color: transparent;
+}
+
+.form-search input[type="search"]:focus {
+  outline: none;
+  cursor: inherit;
+  background-color: white;
+  background-image: none;
+  border-bottom: none;
+  box-shadow: 0px 2px 10px rgb(0 0 0 / 15%), 0px 0px 1px rgb(0 0 0 / 30%);
+}
+
+.button-search {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  color: var(--search-text-color);
+  width: 35px;
+  height: 35px;
+}
+.button-circular {
+  border-radius: 50%;
+  padding: 7px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.button-circular:hover {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.button-search:hover {
+  color: white;
+}
+
+.search-tooltip {
+  position: relative;
+  display: flex;
+}
+
+.search-tooltip .search-tooltip-body {
+  position: absolute;
+  z-index: 2;
+  top: 40px;
+  box-shadow: 0px 2px 10px rgb(0 0 0 / 15%), 0px 0px 1px rgb(0 0 0 / 30%);
+  border-radius: var(--search-border-radius);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.search-result {
+  border-radius: 0;
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.search-result:hover {
+  color: black;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+.nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: white !important;
+}
+
+.navbar-menu {
+  cursor: pointer;
+  width: 25px;
+  margin-right: 10px;
+}

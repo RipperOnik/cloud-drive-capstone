@@ -1,0 +1,12 @@
+.popover {
+  box-shadow: 5px 5px 10px #e0e0e0;
+}
+
+.action-button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: rgba(0, 0, 0, 0.07);
+}

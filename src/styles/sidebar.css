@@ -1,0 +1,60 @@
+.collapsable {
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 2px 25px;
+  width: 100%;
+}
+.collapsable:hover {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+.collapsable.selected {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+.sidebar {
+  color: #404040;
+  margin: 2px;
+  font-family: MailSans, Arial, sans-serif;
+  width: 260px !important;
+}
+
+.chevron {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 0;
+  border-radius: 50%;
+  padding: 5px;
+}
+.chevron:hover {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.add-button {
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 25px;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.add-button:hover {
+  background-color: rgba(197, 17, 168);
+  color: white;
+}
+
+.tooltip--button {
+  position: relative;
+  display: flex;
+}
+
+.tooltip--button .tooltip-body-button {
+  position: absolute;
+  z-index: 5;
+  box-shadow: 0px 2px 10px rgb(0 0 0 / 15%), 0px 0px 1px rgb(0 0 0 / 30%);
+  border-radius: var(--search-border-radius);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}

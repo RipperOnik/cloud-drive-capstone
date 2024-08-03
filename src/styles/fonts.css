@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "MailSans";
+  src: local("MailSans"),
+    url("../fonts/MailSansRoman-Regular.woff") format("woff"),
+    url("../fonts/MailSansRoman-Regular.woff2") format("woff2"),
+    url("../fonts/MailSansRoman-Regular.ttf") format("truetype");
+  font-weight: 400;
+}

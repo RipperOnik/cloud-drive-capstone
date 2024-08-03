@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+  .menu-buttons {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-content-items {
+    border-radius: 0;
+    box-shadow: none;
+    padding: 10px;
+  }
+  .main-content {
+    padding: 5px;
+    background-color: white;
+  }
+}
