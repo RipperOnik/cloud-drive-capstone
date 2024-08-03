@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cloud-drive-capstone/static/css/main.2282cf68.css",
+    "main.js": "/cloud-drive-capstone/static/js/main.0e9211b2.js",
+    "index.html": "/cloud-drive-capstone/index.html",
+    "main.2282cf68.css.map": "/cloud-drive-capstone/static/css/main.2282cf68.css.map",
+    "main.0e9211b2.js.map": "/cloud-drive-capstone/static/js/main.0e9211b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2282cf68.css",
+    "static/js/main.0e9211b2.js"
+  ]
+}
